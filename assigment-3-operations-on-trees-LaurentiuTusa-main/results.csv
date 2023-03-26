@@ -1,0 +1,23 @@
+Name,test,PASS/FAIL,points,expected,actual,difference between expected and actual
+LaurentiuTusa,compile,PASS,0,,
+LaurentiuTusa,no-warnings,PASS,10,,
+LaurentiuTusa,    no-leaks-height,PASS,1,,
+LaurentiuTusa,  no-leaks-preorder,PASS,1,,
+LaurentiuTusa,   no-leaks-inorder,PASS,1,,
+LaurentiuTusa, no-leaks-postorder,PASS,1,,
+LaurentiuTusa,    no-leaks-leaves,PASS,1,,
+LaurentiuTusa,      no-leaks-swap,PASS,1,,
+LaurentiuTusa,      no-leaks-list,PASS,1,,
+LaurentiuTusa,test-height,PASS,10,6,6
+LaurentiuTusa,test-preorder,PASS,10,ABDGEFCHIJ,ABDGEFCHIJ
+LaurentiuTusa,test-inorder,PASS,5,GDCFEBAIHJ,GDCFEBAIHJ
+LaurentiuTusa,test-postorder,PASS,5,GCFEDBIJHA,GCFEDBIJHA
+LaurentiuTusa,test-leaves,PASS,10,4,4
+LaurentiuTusa,test-swap,PASS,10,GDECFBAIHJ,GDECFBAIHJ
+LaurentiuTusa,no-leaks-no-files,FAIL,0,,
+LaurentiuTusa,no-cppcheck-errors,FAIL,0,,
+LaurentiuTusa,test-list,FAIL,0,ABDGEFCHIJ,
+LaurentiuTusa,test-postfix,FAIL,0,"( ( ( ( 6 + 5 ) - 3 ) * 4 ) + ( 2 + ( 1 - 2 ) ) )
+33",
+Name,Total score,PASS/FAIL,failed-test/reason
+LaurentiuTusa,67,PASS,"['no-leaks-no-files', 'no-cppcheck-errors', 'test-list', 'test-postfix']"

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1614430037 source:d:\facultate\sem ii\dsa lab\assignment-1-basic-operations-on-single-linked-lists-laurentiutusa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.functions.h"
+
+1614430082 source:d:\facultate\sem ii\dsa lab\assignment-1-basic-operations-on-single-linked-lists-laurentiutusa\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1614430022 d:\facultate\sem ii\dsa lab\assignment-1-basic-operations-on-single-linked-lists-laurentiutusa\header.functions.h
+

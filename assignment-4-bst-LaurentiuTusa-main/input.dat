@@ -1,0 +1,38 @@
+insert 12
+insert 8
+insert 11
+insert 5
+insert 4
+insert 18
+insert 16
+insert 7
+insert 2
+insert 17
+preorder
+delete 12
+inorder
+insert 6
+insert 9
+insert 10
+delete 8
+postorder
+rotate_right 9
+rotate_right 16
+rotate_left 16
+preorder
+purge
+insert_avl 12
+insert_avl 8
+insert_avl 11
+insert_avl 5
+insert_avl 4
+insert_avl 18
+insert_avl 16
+insert_avl 7
+insert_avl 2
+insert_avl 17
+preorder
+delete_avl 4
+delete_avl 2
+postorder
+

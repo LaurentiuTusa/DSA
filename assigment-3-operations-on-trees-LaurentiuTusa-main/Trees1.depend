@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1615757246 source:d:\facultate\sem ii\dsa lab\assigment-3-operations-on-trees-laurentiutusa\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1615757266 source:d:\facultate\sem ii\dsa lab\assigment-3-operations-on-trees-laurentiutusa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+
+1615757246 d:\facultate\sem ii\dsa lab\assigment-3-operations-on-trees-laurentiutusa\header.h
+
+1615479506 d:\facultate\sem ii\dsa lab\assigment-3-operations-on-trees-laurentiutusa\globalvar.h
+

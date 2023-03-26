@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1617350549 source:d:\facultate\sem ii\dsa lab\assignment-6-1-sub-graphs-laurentiutusa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1616793178 source:d:\facultate\sem ii\dsa lab\assignment-5-hash-tables-laurentiutusa\fucntions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1617117643 source:d:\facultate\sem ii\dsa lab\assignment-5-hash-tables-laurentiutusa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+
+1616768249 d:\facultate\sem ii\dsa lab\assignment-5-hash-tables-laurentiutusa\header.h
+

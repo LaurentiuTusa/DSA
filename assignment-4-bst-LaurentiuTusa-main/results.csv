@@ -1,0 +1,45 @@
+Name,test,PASS/FAIL,points,expected,actual,difference between expected and actual
+LaurentiuTusa,compile,PASS,0,,
+LaurentiuTusa,no-warnings,PASS,-10,,
+LaurentiuTusa,no-cppcheck-errors,PASS,5,,
+LaurentiuTusa,no-leaks-test-until-rotations,PASS,2,,
+LaurentiuTusa,no-leaks-test-until-avl-insert,PASS,2,,
+LaurentiuTusa,no-leakstest-all,PASS,4,,
+LaurentiuTusa,test-until-rotations,PASS,50,"12 8 5 3 2 7 11 18 16 17
+2 3 5 7 8 11 16 17 18
+2 3 6 7 5 10 11 9 17 18 16
+5 3 2 18 16 9 7 6 11 10 17
+12
+","12 8 5 3 2 7 11 18 16 17 
+2 3 5 7 8 11 16 17 18 
+2 3 6 7 5 10 11 9 17 18 16 
+5 3 2 18 16 9 7 6 11 10 17 
+12 
+"
+LaurentiuTusa,no-leaks-no-files,FAIL,0,,
+LaurentiuTusa,test-until-avl-insert,FAIL,0,"12 8 5 3 2 7 11 18 16 17
+2 3 5 7 8 11 16 17 18
+2 3 6 7 5 10 11 9 17 18 16
+5 3 2 18 16 9 7 6 11 10 17
+11 5 3 2 8 7 16 12 18 17
+","12 8 5 3 2 7 11 18 16 17 
+2 3 5 7 8 11 16 17 18 
+2 3 6 7 5 10 11 9 17 18 16 
+5 3 2 18 16 9 7 6 11 10 17 
+
+"
+LaurentiuTusa,test-all,FAIL,0,"12 8 5 3 2 7 11 18 16 17
+2 3 5 7 8 11 16 17 18
+2 3 6 7 5 10 11 9 17 18 16
+5 3 2 18 16 9 7 6 11 10 17
+11 5 3 2 8 7 16 12 18 17
+5 8 7 12 17 18 16 11
+","12 8 5 3 2 7 11 18 16 17 
+2 3 5 7 8 11 16 17 18 
+2 3 6 7 5 10 11 9 17 18 16 
+5 3 2 18 16 9 7 6 11 10 17 
+
+
+"
+Name,Total score,PASS/FAIL,failed-test/reason
+LaurentiuTusa,53,PASS,"['no-leaks-no-files', 'test-until-avl-insert', 'test-all']"

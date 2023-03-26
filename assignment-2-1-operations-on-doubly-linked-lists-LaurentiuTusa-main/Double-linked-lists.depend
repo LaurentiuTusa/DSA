@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1614890556 source:d:\facultate\sem ii\dsa lab\assignment-2-1-operations-on-doubly-linked-lists-laurentiutusa\functii.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1615019506 source:d:\facultate\sem ii\dsa lab\assignment-2-1-operations-on-doubly-linked-lists-laurentiutusa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+
+1614880339 d:\facultate\sem ii\dsa lab\assignment-2-1-operations-on-doubly-linked-lists-laurentiutusa\header.h
+

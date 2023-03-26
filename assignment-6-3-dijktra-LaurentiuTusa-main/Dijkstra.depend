@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1617643949 source:d:\facultate\sem ii\dsa lab\assignment-6-3-dijktra-laurentiutusa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+
+1617567018 d:\facultate\sem ii\dsa lab\assignment-6-3-dijktra-laurentiutusa\header.h
+
+1617644026 source:d:\facultate\sem ii\dsa lab\assignment-6-3-dijktra-laurentiutusa\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
